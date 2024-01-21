@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Enum to represent different movements
+
 enum Movement {
     STRAIGHT,
     UTURN,
@@ -25,7 +25,7 @@ void UTurn() {
     printf("Making U-turn\n");
 }
 
-// Function to follow the path based on the current road conditions
+
 void followPath(int road) {
     // Check if the road is blocked
     if (road == 0) {
@@ -45,7 +45,7 @@ void followPath(int road) {
 
 // 
 void loop() {
-    // Simulate reading the current state of the road
+   
     int road =0101; 
 
     
